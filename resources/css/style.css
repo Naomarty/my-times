@@ -78,7 +78,6 @@ a {
 /* Medium Column */
 
 .m-col {
-  display: flex;
   width: 300px;
   border: 1px solid black;
 }
@@ -86,7 +85,6 @@ a {
 /* Small Column */
 
 .s-col {
-  display: flex;
   width: 240px;
   border: 1px solid black;
 }
