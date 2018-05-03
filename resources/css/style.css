@@ -9,7 +9,7 @@ header {
   align-items: center;
   position: fixed;
   width: 100%;
-  height: auto;
+  height: 75px;
   background-color: white;
 }
 
@@ -34,4 +34,59 @@ nav span {
 
 a {
   color: black;
+}
+
+
+/* Main Container Section */
+
+.content {
+  display: flex;
+  padding-top: 75px;
+}
+
+/* Large Column */
+
+.l-col {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.main {
+  border: 1px solid black;
+}
+
+.main span {
+  border: 1px solid black;
+}
+
+.secondary {
+  border: 1px solid black;
+}
+
+.stories {
+  border: 1px solid black;
+}
+
+.story-text {
+  border: 1px solid black;
+}
+
+.story-image {
+  border: 1px solid black;
+}
+
+/* Medium Column */
+
+.m-col {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+}
+
+/* Small Column */
+
+.s-col {
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
 }
