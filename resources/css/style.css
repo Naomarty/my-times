@@ -49,13 +49,21 @@ a {
 
 .content {
   display: flex;
-  padding-top: 115px;
+  padding-top: 100px;
+}
+
+h2 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 15px;
 }
 
 p {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 17px;
   color: black;
+  padding: 15px 0 15px 0;
 }
 
 .story-image {
@@ -64,15 +72,25 @@ p {
   font-size: 30px;
   color: white;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+
+.story-image span {
 }
 
 /* Large Column */
 
 .l-col {
   width: 630px;
+  padding: 15px;
 }
 
 .main {
+  padding: 10px;
 }
 
 .main-story-image {
@@ -83,6 +101,12 @@ p {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  display: flex;
+  align-items: center;
+}
+
+.main-story-image span {
+  padding-left: 20px;
 }
 
 .secondary {
@@ -90,31 +114,31 @@ p {
 }
 
 .stories {
+  margin: 10px;
 }
 
 .story-text {
+  margin: 10px 0 10px 0;
 }
 
 
 .earth {
   background-image: url("../images/img-story-2.png");
-  height: 300px;
 }
 
 .research {
   background-image: url("../images/img-story-3.png");
-  height: 300px;
 }
 
 /* Medium Column */
 
 .m-col {
   width: 300px;
+  padding: 15px;
 }
 
 .cats {
   background-image: url("../images/img-story-1.png");
-  height: 300px;
 }
 
 /* Small Column */
@@ -143,4 +167,42 @@ h3 {
   color: DimGray;
   border-bottom: 1px solid black;
   padding: 15px;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  flex-direction: column;
+  height: 300px;
+  width: auto;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+.title {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+footer nav {
+  padding-left: 40px;
+  margin-right: 0;
+}
+.copyright {
 }
